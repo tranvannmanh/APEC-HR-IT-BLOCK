@@ -1,0 +1,120 @@
+#footer {
+	width: 100%;
+}
+
+.footer_address_contact {
+	background: #eaacad;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	/* height: auto; */
+}
+
+.footer_address_contact_inside {
+	width: 70%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	font-size: 16px;
+	padding: 56px 0;
+}
+
+.footer_address_contact_inside span {
+	color: #0c3050;
+	font-size: 18px;
+	padding: 16px 0;
+}
+
+.footer_address,
+.footer_signup {
+	width: 40%;
+	padding: 10px;
+}
+
+.footer_contact {
+	width: 20%;
+	padding: 10px;
+}
+
+.footer_address ul {
+	list-style-type: none;
+	display: flex;
+}
+
+.footer_contact ul {
+	list-style-type: none;
+}
+
+.footer_address ul li {
+	padding: 12px 0;
+	font-size: 24px;
+}
+
+.footer_address_contact_inside ul li a {
+	color: #0c3050;
+}
+
+.footer_signup_inside {
+	float: right;
+}
+
+.footer_signup_box {
+	height: 48px;
+	display: flex;
+	border-radius: 8px;
+}
+
+.footer_signup_box input {
+	/* height: 100%; */
+	width: 70%;
+	outline: 0;
+	/* border-radius: 8px; */
+	border-radius: 8px 0 0 8px;
+	border: 1px solid transparent;
+	padding: 16px;
+}
+
+.footer_signup_box button {
+	height: 100%;
+	width: 30%;
+	border-radius: 0 8px 8px 0;
+	border: 1px solid transparent;
+	background: #0c3050;
+	color: white;
+}
+
+.footer_logo_brand {
+	background-color: #cf585e;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.footer_logo_brand_inside {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 23px 0;
+}
+
+.footer_address_contact_inside span {
+	width: 40%;
+}
+
+.footer_logo_brand_inside .footer_logo {
+	display: flex;
+	width: 60%;
+}
+
+.footer_logo ul {
+	width: 100%;
+	display: flex;
+	list-style-type: none;
+	justify-content: right;
+}
+
+.footer_logo ul li {
+	margin: 0 31px;
+	display: flex;
+	align-items: center;
+}

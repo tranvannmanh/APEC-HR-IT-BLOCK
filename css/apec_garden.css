@@ -1,0 +1,119 @@
+#apec_garden {
+	/* position: relative; */
+	width: 100%;
+	padding: 50px 0;
+	/* background-color: #0d2e4f; */
+	background-image: url('../background/BG\ 1.png');
+	display: flex;
+	justify-content: center;
+}
+
+.apec_garden_inside {
+	width: 90%;
+}
+
+.apec_garden_inside_header {
+	padding: 50px 0;
+}
+
+.apec_garden_inside_header {
+	text-align: center;
+}
+
+.apec_garden_inside_header h1 {
+	color: white;
+}
+
+.apec_garden_inside_blocks {
+	width: 100%;
+	background-color: #0d2e4f;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	margin: 50px 0;
+}
+
+.apec_garden_inside_blocks .blocks .images {
+	border-radius: 10px;
+}
+
+.blocks {
+	width: 390px;
+	height: 426px;
+	background-color: white;
+	border-radius: 10px;
+	z-index: 1;
+	margin: 20px;
+}
+
+.images {
+	/* width: 390px; */
+	/* border-radius: 10px; */
+	z-index: 0;
+	width: 100%;
+	height: 280px;
+	background-color: burlywood;
+}
+
+.blocks .text_content .text_content_date {
+	color: #be584a;
+}
+
+.text_content_discription p {
+	margin: 8px 0;
+}
+
+.blocks .text_content {
+	box-sizing: border-box;
+	padding: 24px;
+}
+
+.apec_garden_inside_searchbox_container {
+	display: flex;
+	justify-content: center;
+}
+
+.apec_garden_inside_searchbox {
+	width: 15%;
+	height: auto;
+	display: flex;
+	border-radius: 50px;
+	border: 1px solid #cf585e;
+	background-color: #cf585e;
+	/* padding: 10px; */
+}
+
+.apec_garden_inside_searchbox input {
+	width: 60%;
+	height: 40px;
+	border: 0 solid transparent;
+	background-color: transparent;
+	border-radius: 50px;
+	padding: 0 10px;
+	font-size: 15px;
+}
+
+.apec_garden_inside_searchbox input::placeholder {
+	color: white;
+}
+.apec_garden_inside_searchbox input:focus {
+	border: 0 solid transparent;
+	color: white;
+	outline: none;
+}
+
+.apec_garden_inside_searchbox_icon {
+	width: 40%;
+	height: 100%;
+	/* background-repeat: 50px; */
+	border-radius: 50px;
+	border: 1px solid transparent;
+	background-color: transparent;
+	font-size: 120%;
+}
+
+.apec_garden_inside_searchbox_icon:hover {
+	background-color: rgb(42, 54, 87);
+	color: white;
+	transition: 0.4s;
+}

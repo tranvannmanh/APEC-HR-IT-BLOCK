@@ -1,0 +1,121 @@
+#apply_apec {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 110px 0;
+	position: relative;
+	z-index: -1;
+}
+
+#apply_apec img {
+	position: absolute;
+}
+
+#apply_apec .frame1 {
+	top: 15px;
+	left: 0px;
+}
+
+#apply_apec .frame2 {
+	top: 498px;
+	left: 0;
+}
+
+#apply_apec .frame3 {
+	top: 21px;
+	right: 0px;
+}
+
+#apply_apec .frame4 {
+	top: 559px;
+	right: -18px;
+}
+
+#apply_apec .apply_inside {
+	width: 40%;
+	padding: 30px;
+}
+
+.apply_inside_header {
+	text-align: center;
+}
+.apply_inside_header h3 {
+	color: #bd6064;
+}
+
+.apply_inside_header h1 {
+	color: #0b314f;
+}
+
+.apply_inside_form {
+	width: 100%;
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+}
+
+.apply_inside_form form {
+	border-radius: 30px;
+	padding: 36px;
+	width: 100%;
+	box-shadow: 5px 10px 20px 5px lightgrey;
+}
+
+.apply_name_email {
+	display: flex;
+}
+
+.apply_name_email .name,
+.apply_name_email .email {
+	box-sizing: border-box;
+	width: 50%;
+	height: 56px;
+	outline: none;
+}
+
+.apply_role_cv {
+	display: flex;
+}
+
+.apply_role_cv .role {
+	width: 40%;
+}
+
+.apply_role_cv .cv {
+	width: 60%;
+}
+
+.apply_role_cv .cv,
+.apply_role_cv .role {
+	height: 56px;
+	background-color: white;
+}
+
+#textfield {
+	width: 100%;
+}
+
+.apply_inside_form input,
+.apply_inside_form select,
+#textfield {
+	margin: 8px;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid #aaaaaa;
+}
+
+.send_form {
+	margin: 8px;
+	height: auto;
+}
+
+.send_form .send {
+	width: 30%;
+	float: right;
+	background: #cf585e;
+	height: 56px;
+	border: 1px solid #cf585e;
+	border-radius: 10px;
+	color: white;
+	font-size: 16px;
+}
