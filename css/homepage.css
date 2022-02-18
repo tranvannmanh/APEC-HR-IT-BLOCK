@@ -2,8 +2,15 @@ html {
 	scroll-behavior: smooth;
 }
 
+/* @font-face {
+	font-family: 'Gilroy';
+	src: url(Gilroy-Medium.woff);
+} */
+
 body {
-	font-family: 'Roboto Mono', monospace;
+	/* font-family: 'Gilroy';
+	font-family: 'Roboto Mono', monospace; */
+	font-family: 'SVN-Gilroy';
 }
 
 * {
@@ -16,10 +23,65 @@ body {
 	width: 100%;
 	overflow: hidden;
 }
-/* ::placeholder {
-	color: white;
-	opacity: 1; 
-} */
+
+.home_page_inside h3 {
+	color: #0c3050;
+	padding: 10px 0;
+}
+
+.home_page_inside img {
+	position: absolute;
+}
+
+.home_page_inside .cloud1 {
+	top: 161px;
+	left: 74px;
+}
+
+.home_page_inside .cloud2 {
+	top: 171px;
+	left: 735px;
+}
+
+.home_page_inside .cloud3 {
+	top: 231px;
+	left: 1208px;
+}
+
+.home_page_inside .cloud4 {
+	top: 153px;
+	left: 1711px;
+}
+
+.home_page_inside .tree1 {
+	top: 999px;
+	left: 37px;
+}
+
+.home_page_inside .tree2 {
+	top: 1052px;
+	left: 146px;
+}
+
+.home_page_inside .tree3 {
+	top: 962px;
+	left: 225px;
+}
+
+.home_page_inside .tree4 {
+	left: 1541px;
+	top: 1021px;
+}
+
+.home_page_inside .tree5 {
+	top: 1040px;
+	left: 1678px;
+}
+
+.home_page_inside .tree6 {
+	top: 1002px;
+	left: 1857px;
+}
 
 #home_page {
 	width: 100%;

@@ -91,26 +91,27 @@
 }
 
 .footer_logo_brand_inside {
-	width: 100%;
+	width: 70%;
 	display: flex;
-	justify-content: center;
+	/* justify-content: center; */
 	padding: 23px 0;
 }
 
-.footer_address_contact_inside span {
+.footer_logo_brand_inside span {
 	width: 40%;
+	font-weight: bold;
 }
 
 .footer_logo_brand_inside .footer_logo {
-	display: flex;
 	width: 60%;
+	justify-content: right;
 }
 
 .footer_logo ul {
-	width: 100%;
+	/* width: 100%; */
 	display: flex;
 	list-style-type: none;
-	justify-content: right;
+	float: right;
 }
 
 .footer_logo ul li {

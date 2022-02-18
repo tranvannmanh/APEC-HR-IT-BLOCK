@@ -4,11 +4,12 @@
 	justify-content: center;
 	padding: 110px 0;
 	position: relative;
-	z-index: -1;
+	/* z-index: -1; */
 }
 
 #apply_apec img {
 	position: absolute;
+	z-index: -1;
 }
 
 #apply_apec .frame1 {
@@ -89,15 +90,25 @@
 .apply_role_cv .role {
 	height: 56px;
 	background-color: white;
+	box-sizing: border-box;
 }
 
-#textfield {
-	width: 100%;
+.apply_inside_form .textfield {
+	box-sizing: border-box;
+	border: 1px solid #000;
+	margin: 8px;
+	border-radius: 10px;
+	border: 1px solid #aaaaaa;
+	padding: 10px;
+}
+
+.textfield #textfield {
+	width: 99%;
+	border: 1px solid transparent;
 }
 
 .apply_inside_form input,
-.apply_inside_form select,
-#textfield {
+.apply_inside_form select {
 	margin: 8px;
 	padding: 10px;
 	border-radius: 10px;
