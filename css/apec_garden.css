@@ -1,9 +1,10 @@
 #apec_garden {
 	width: 100%;
-	padding: 50px 0;
+	padding: 66px 0;
 	background-image: url('../background/BG\ 1.png');
 	display: flex;
 	justify-content: center;
+	z-index: 2;
 }
 
 .apec_garden_inside {
@@ -11,7 +12,7 @@
 }
 
 .apec_garden_inside_header {
-	padding: 50px 0;
+	padding: 30px 0;
 }
 
 .apec_garden_inside_header {
@@ -27,7 +28,7 @@
 	display: flex;
 	justify-content: center;
 	overflow: hidden;
-	margin: 50px 0;
+	margin: 27px 0;
 }
 
 .apec_garden_inside_blocks .blocks .images {
@@ -39,8 +40,8 @@
 	height: 426px;
 	background-color: white;
 	border-radius: 10px;
-	z-index: 1;
-	margin: 20px;
+	/* z-index: 1; */
+	margin: 15px;
 }
 
 .images {
@@ -56,6 +57,7 @@
 
 .text_content_discription p {
 	margin: 8px 0;
+	font-size: 24px;
 }
 
 .blocks .text_content {
@@ -66,6 +68,7 @@
 .apec_garden_inside_searchbox_container {
 	display: flex;
 	justify-content: center;
+	/* margin: 22px 0; */
 }
 
 .apec_garden_inside_searchbox {
@@ -75,17 +78,18 @@
 	border-radius: 50px;
 	border: 1px solid #cf585e;
 	background-color: #cf585e;
+	margin: 22px 0;
 	/* padding: 10px; */
 }
 
 .apec_garden_inside_searchbox input {
 	width: 60%;
-	height: 40px;
+	/* height: 40px; */
 	border: 0 solid transparent;
 	background-color: transparent;
 	border-radius: 50px;
-	padding: 0 10px;
-	font-size: 15px;
+	padding: 17px 0 17px 41px;
+	font-size: 16px;
 }
 
 .apec_garden_inside_searchbox input::placeholder {
@@ -105,6 +109,7 @@
 	border: 1px solid transparent;
 	background-color: transparent;
 	font-size: 120%;
+	color: white;
 }
 
 .apec_garden_inside_searchbox_icon:hover {

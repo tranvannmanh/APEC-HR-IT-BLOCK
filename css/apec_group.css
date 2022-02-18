@@ -31,7 +31,6 @@
 	position: absolute;
 	top: 62px;
 	left: -34px;
-	z-index: 0;
 }
 
 .apec_group_inside_content {
@@ -63,9 +62,10 @@
 .apec_group_inside_content_movepage .movepage_item,
 .movepage_previous_next {
 	/* width: 10%; */
-	padding: 10px;
+	padding: 15px 17px;
 	text-align: center;
-	font-size: 10px;
+	font-size: 7px;
+	color: #eaacad;
 }
 
 .movepage_previous_next {

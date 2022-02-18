@@ -39,10 +39,11 @@
 .apply_inside_header {
 	text-align: center;
 }
+
 h3 {
 	color: #bd6064;
 	font-size: 24px;
-	padding: 10px;
+	padding: 16px;
 }
 
 .apply_inside_header h1 {
