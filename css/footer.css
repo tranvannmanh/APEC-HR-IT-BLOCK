@@ -12,17 +12,17 @@
 
 .footer_address_contact_inside {
 	width: 70%;
-	height: auto;
 	display: flex;
 	justify-content: space-around;
 	font-size: 16px;
-	padding: 56px 0;
+	padding: 40px 0;
 }
 
 .footer_address_contact_inside span {
 	color: #0c3050;
 	font-size: 18px;
 	padding: 16px 0;
+	display: inline-block;
 }
 
 .footer_address,
@@ -65,10 +65,8 @@
 }
 
 .footer_signup_box input {
-	/* height: 100%; */
 	width: 70%;
 	outline: 0;
-	/* border-radius: 8px; */
 	border-radius: 8px 0 0 8px;
 	border: 1px solid transparent;
 	padding: 16px;
@@ -93,7 +91,6 @@
 .footer_logo_brand_inside {
 	width: 70%;
 	display: flex;
-	/* justify-content: center; */
 	padding: 23px 0;
 }
 
@@ -108,7 +105,6 @@
 }
 
 .footer_logo ul {
-	/* width: 100%; */
 	display: flex;
 	list-style-type: none;
 	float: right;

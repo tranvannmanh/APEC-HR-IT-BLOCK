@@ -2,14 +2,7 @@ html {
 	scroll-behavior: smooth;
 }
 
-/* @font-face {
-	font-family: 'Gilroy';
-	src: url(Gilroy-Medium.woff);
-} */
-
 body {
-	/* font-family: 'Gilroy';
-	font-family: 'Roboto Mono', monospace; */
 	font-family: 'SVN-Gilroy';
 }
 
@@ -139,10 +132,10 @@ body {
 }
 .link_list ul li a {
 	text-decoration: none;
-	/* color: black; */
 	padding: 10px 20px;
 	border: 1px solid transparent;
 	border-radius: 50px;
+	color: #0c3050;
 }
 
 .link_list ul li a:hover {
@@ -188,12 +181,12 @@ body {
 	width: 80%;
 	height: 100%;
 	background-color: transparent;
-	border-color: transparent;
 	padding: 0 8px;
+	border: 1px solid transparent;
 }
 
 .search_box_input:focus {
-	border-color: transparent;
+	outline: transparent;
 }
 
 .search_icon {

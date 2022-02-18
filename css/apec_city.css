@@ -2,8 +2,6 @@
 	justify-content: center;
 	width: 1920px;
 	height: 2004px;
-	/* background-color: green; */
-	/* position: relative; */
 }
 
 .apec_city_inside {
@@ -18,10 +16,6 @@
 	padding: 30px 0;
 }
 
-/* h4 {
-	color: #cf585e;
-}*/
-
 h1 {
 	color: #0c3050;
 }
@@ -32,7 +26,6 @@ h1 {
 
 .svg-image {
 	position: absolute;
-	/* background-size: cover; */
 }
 
 .apec_city_mini_block {
