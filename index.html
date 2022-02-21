@@ -58,7 +58,7 @@
                             <div class="search_box">
                                 <input type="text" class="search_box_input" placeholder="Tìm hiểu ngay">
                                 <p class="search_icon">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <i class="fa-solid fa-magnifying-glass" style="font-size: 17px;"></i>
                                 </p>
                             </div>
                         </div>
@@ -74,6 +74,7 @@
                 </div>
                 <div class="apec_city_mini_block">
                     <img src="./Cac khoi/Building6 1.png" alt="">
+                    <img  class="close_mini_block" src="./Cac khoi/close_mini_block.png" alt="">
                     <h3>Khối IT</h3>
                     <div class="apec_city_mini_block_content">
                         <p>
@@ -232,25 +233,28 @@
                 <div class="apply_inside_form">
                     <form action="#">
                         <div class="apply_name_email">
-                            <input type="text" class="name" placeholder="Họ & tên">
-                            <input type="text" class="email" placeholder="Email">
+                            <input type="text" class="name" placeholder="Họ & tên" style="font-family: 'SVN-Gilroy';">
+                            <input type="text" class="email" placeholder="Email" style="font-family: 'SVN-Gilroy';">
                         </div>
                         <div class="apply_role_cv">
-                           <select class="role" name="role" id="">
+                           <select class="role" name="role" id="" style="font-family: 'SVN-Gilroy'; color: #D6D6D6;">
                                <option value="">Vị trí ứng tuyển</option>
                            </select>
-                           <label for="apply_cv" style="cursor: pointer;">
-                               <i class="fa-solid fa-paperclip"></i>
-                           </label>
-                            <input id="apply_cv"type="file">
+                           <div class="apply_cv">
+                               <label for="apply_cv" style="cursor: pointer;">
+                                    <span style="color: #D6D6D6;">Đính kèm CV</span>
+                                    <i class="fa-solid fa-paperclip" style="color: #606060; border: 1.5px;float: right;"></i>
+                               </label>
+                                <input id="apply_cv"type="file">
+                           </div>
                         </div>
                         <div class="textfield">
-                            <textarea name="" id="textfield" rows="15"></textarea>
+                            <textarea name="" id="textfield" rows="15" placeholder="Thư ứng tuyển"></textarea>
                         </div>
                         <div class="send_form">
                             <button class="send" type="submit">
                                 Gửi thư ứng tuyển
-                                <i class="fa-solid fa-paper-plane"></i>
+                                <i class="fa-solid fa-paper-plane" style="padding: 19px;"></i>
                             </button>
                         </div>
                     </form>
@@ -262,7 +266,7 @@
                 <div class="footer_address_contact_inside">
                     <div class="footer_address">
                         <span>CÔNG TY CỔ PHẦN TẬP ĐOÀN APEC GROUP</span>
-                        <p>
+                        <p style="font-weight: 500;">
                             Địa chỉ: Tầng 3, TTTM Grand Plaza, số 117 Trần Duy Hưng, P. Trung Hòa, Q. Cầu Giấy, Hà Nội
                         </p>
                         <ul>
@@ -296,7 +300,7 @@
                     <div class="footer_logo">
                         <ul>
                             <li><img src="./logo/light_logo.png" alt=""></li>
-                            <li><img src="./logo/light_logo.png" alt=""></li>
+                            <li style="margin: 0 64px;"><img src="./logo/light_logo.png" alt=""></li>
                             <li><img src="./logo/light_logo(1).png" alt=""></li>
                         </ul>
                     </div>
@@ -304,5 +308,9 @@
             </div>
         </div>
     </div>
+
+    <script>
+        
+    </script>
 </body>
 </html>

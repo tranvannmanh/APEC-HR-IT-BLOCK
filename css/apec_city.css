@@ -6,6 +6,7 @@
 
 ::placeholder {
 	color: #0c3050;
+	font-size: 16px;
 }
 
 .apec_city_inside {
@@ -55,6 +56,12 @@ h1 {
 	left: 33px;
 }
 
+.close_mini_block {
+	position: absolute;
+	/* top: 500px; */
+	right: -18px;
+}
+
 .apec_city_mini_block h4 {
 	text-align: center;
 	color: #0c3050;
@@ -98,5 +105,5 @@ h1 {
 .apec_city_mini_block img {
 	position: absolute;
 	z-index: 1;
-	top: -150px;
+	top: -110px;
 }

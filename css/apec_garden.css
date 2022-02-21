@@ -53,11 +53,13 @@
 
 .blocks .text_content .text_content_date {
 	color: #be584a;
+	font-weight: 700;
 }
 
 .text_content_discription p {
 	margin: 8px 0;
 	font-size: 24px;
+	font-weight: 700;
 }
 
 .blocks .text_content {

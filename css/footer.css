@@ -16,14 +16,19 @@
 	justify-content: space-around;
 	font-size: 16px;
 	padding: 40px 0;
+	color: #0c3050;
 }
 
 .footer_address_contact_inside span {
-	color: #0c3050;
 	font-size: 18px;
 	padding: 16px 0;
 	display: inline-block;
+	font-weight: 700;
 }
+/* 
+.footer_address span {
+	font-weight: 700;
+} */
 
 .footer_address,
 .footer_signup {
@@ -39,6 +44,7 @@
 .footer_address ul {
 	list-style-type: none;
 	display: flex;
+	/* color: #0c3050; */
 }
 
 .footer_contact ul {
@@ -50,7 +56,7 @@
 	font-size: 24px;
 }
 
-.footer_address_contact_inside ul li a {
+.footer_address ul li a {
 	color: #0c3050;
 }
 
@@ -111,7 +117,7 @@
 }
 
 .footer_logo ul li {
-	margin: 0 31px;
+	/* margin: 0 31px; */
 	display: flex;
 	align-items: center;
 }
