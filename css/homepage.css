@@ -4,7 +4,7 @@ html {
 
 body {
 	font-family: 'SVN-Gilroy';
-	font-weight: bold;
+	/* font-weight: bold; */
 }
 
 * {
@@ -84,6 +84,7 @@ body {
 	display: flex;
 	justify-content: center;
 	padding: 48px 345px;
+	position: relative;
 }
 
 /* .home_page_inside {
@@ -162,12 +163,14 @@ body {
 
 .home_page_inside_content_inside_text {
 	color: #0c3050;
-	width: 60%;
+	/* width: 60%; */
 	border: 1px solid transparent;
+	/* line-height: 24px; */
 }
 
 .paragraph {
 	padding: 20px 0;
+	line-height: 24px;
 }
 
 .search_box {

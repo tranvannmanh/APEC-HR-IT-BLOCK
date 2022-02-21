@@ -1,6 +1,6 @@
 #apec_city {
 	justify-content: center;
-	width: 1920px;
+	/* width: 1920px; */
 	height: 2004px;
 }
 
@@ -17,7 +17,7 @@
 .apec_city_inside_header {
 	text-align: center;
 	height: auto;
-	padding: 48px 556px;
+	padding: 48px 29%;
 }
 
 h1 {
@@ -36,7 +36,7 @@ h1 {
 
 .svg-image {
 	position: absolute;
-	max-width: 100%;
+	/* max-width: 100%; */
 	/* z-index: -1; */
 }
 

@@ -40,6 +40,8 @@
 .apec_group_inside_content_paragraph {
 	color: #597487;
 	margin: 32px 0;
+	line-height: 24px;
+	font-weight: 500;
 }
 
 .apec_group_inside_content_paragraph p {
@@ -71,5 +73,6 @@
 .movepage_previous_next {
 	border-radius: 50px;
 	background: #eaacad;
+	font-size: 10px;
 	color: #231f20;
 }
