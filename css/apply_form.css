@@ -84,11 +84,11 @@ h3 {
 	width: 40%;
 }
 
-.apply_role_cv .cv {
+#apply_cv {
 	width: 60%;
 }
 
-.apply_role_cv .cv,
+#apply_cv,
 .apply_role_cv .role {
 	height: 56px;
 	background-color: white;
