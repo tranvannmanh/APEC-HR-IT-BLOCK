@@ -4,7 +4,7 @@
 	padding: 96px 0;
 	position: relative;
 	background-color: #edf1f4;
-	z-index: -1;
+	/* z-index: -1; */
 }
 
 .apec_group_inside_content_header h3 {
@@ -58,16 +58,17 @@
 
 .apec_group_inside_content_movepage {
 	display: flex;
-	width: 30%;
+	/* width: 30%; */
 }
 
 .apec_group_inside_content_movepage .movepage_item,
 .movepage_previous_next {
-	/* width: 10%; */
-	padding: 15px 17px;
-	text-align: center;
+	/* text-align: center; */
 	font-size: 7px;
 	color: #eaacad;
+	align-items: center;
+	justify-content: center;
+	display: flex;
 }
 
 .movepage_previous_next {
@@ -75,4 +76,10 @@
 	background: #eaacad;
 	font-size: 10px;
 	color: #231f20;
+	width: 40px;
+	height: 40px;
+}
+
+.apec_group_inside_content_movepage .movepage_item {
+	margin: 0 12px;
 }

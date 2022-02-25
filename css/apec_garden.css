@@ -74,8 +74,8 @@
 }
 
 .apec_garden_inside_searchbox {
-	width: 15%;
-	height: auto;
+	width: 240px;
+	height: 56px;
 	display: flex;
 	border-radius: 50px;
 	border: 1px solid #cf585e;
