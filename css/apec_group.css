@@ -4,7 +4,7 @@
 	padding: 96px 0;
 	position: relative;
 	background-color: #edf1f4;
-	/* z-index: -1; */
+	z-index: -1;
 }
 
 .apec_group_inside_content_header h3 {
@@ -19,6 +19,7 @@
 
 .apec_group_inside_content_header h1 {
 	font-size: 48px;
+	color: #0c3050;
 }
 
 .apec_group_inside {
@@ -42,13 +43,12 @@
 	margin: 32px 0;
 	line-height: 24px;
 	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
 }
 
 .apec_group_inside_content_paragraph p {
 	margin: 10px 0;
-	color: #61717b;
-	font-size: 16px;
-	/* position: relative; */
 }
 
 .apec_group_inside_content_paragraph ul {

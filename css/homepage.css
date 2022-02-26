@@ -15,11 +15,13 @@ body {
 	height: auto;
 	width: 100%;
 	overflow: hidden;
+	/* display: flex; */
+	/* justify-content: center; */
 }
 
 .home_page_inside h3 {
 	color: #0c3050;
-	padding: 10px 0;
+	/* padding: 10px 0; */
 }
 
 .home_page_inside img {
@@ -44,6 +46,11 @@ body {
 .home_page_inside .cloud4 {
 	top: 153px;
 	left: 1711px;
+}
+
+.home_page_inside .cloud5 {
+	top: 451px;
+	left: 842px;
 }
 
 .home_page_inside .tree1 {
@@ -170,7 +177,8 @@ body {
 	width: 100%;
 	max-height: 100%;
 	border: 1px solid transparent;
-	padding: 42px 0 0 0;
+	/* padding: 42px 0 0 0; */
+	margin-top: 116px;
 	box-sizing: border-box;
 }
 
@@ -192,11 +200,12 @@ body {
 }
 
 .paragraph {
-	padding: 20px 0;
+	padding: 32px 0;
 	line-height: 24px;
 }
 
 .search_box {
+	/* margin-top: 9px; */
 	width: 193px;
 	height: 48px;
 	border: 2px solid #0c3050;
@@ -209,8 +218,14 @@ body {
 	width: 80%;
 	height: 100%;
 	background-color: transparent;
-	padding: 11px 24px;
+	padding: 11px 0 11px 24px;
+	/* line-height: 24px; */
 	border: 1px solid transparent;
+}
+
+.search_box_input::placeholder {
+	font-weight: 700;
+	font-size: 16px;
 }
 
 .search_box_input:focus {

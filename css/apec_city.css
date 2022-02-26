@@ -1,7 +1,8 @@
 #apec_city {
 	justify-content: center;
 	/* width: 1920px; */
-	height: 2004px;
+	height: 2080px;
+	position: relative;
 }
 
 ::placeholder {
@@ -18,7 +19,7 @@
 .apec_city_inside_header {
 	text-align: center;
 	height: auto;
-	padding: 0px 29% 48px 29%;
+	padding: 48px 29% 48px 29%;
 }
 
 .apec_city_inside_header h1 {
@@ -27,11 +28,20 @@
 	line-height: 56px;
 }
 
+.apec_city_inside_header h3 {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 56px;
+	color: #cf585e;
+}
+
 .apec_city_inside_structure {
+	/* width: 105%; */
 	height: 1704px;
+	/* height: auto; */
 	position: relative;
 	display: flex;
-	/* justify-content: center; */
+	justify-content: center;
 	align-items: center;
 	z-index: -1;
 }
@@ -39,16 +49,19 @@
 .svg-image {
 	position: absolute;
 	/* max-width: 100%; */
-	width: 100%;
+	width: 105%;
+	/* max-height: 100%; */
 	height: auto;
+
 	/* size: ; */
 	/* z-index: -1; */
+	/* object-fit: cover; */
 }
 
 .apec_city_mini_block {
 	position: absolute;
-	width: 390px;
-	height: 320px;
+	width: 20.31%;
+	height: 15.96%;
 	padding: 32px;
 	border-radius: 8px;
 	box-shadow: 0 4px 25px 0 #3707001a;
@@ -56,7 +69,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	bottom: 78px;
+	bottom: 150px;
 	left: 33px;
 }
 
@@ -69,8 +82,15 @@
 
 .apec_city_mini_block_content {
 	color: #597487;
-	margin: 16px;
+	/* margin: 16px; */
+	font-weight: 500;
 	font-size: 16px;
+	line-height: 24px;
+	text-align: justify;
+}
+
+.apec_city_mini_block_search {
+	margin-top: 16px;
 }
 
 .mini_block_search_inside {
@@ -88,17 +108,17 @@
 	border: 1px solid transparent;
 	outline: 0;
 	border-radius: 50px;
-	padding: 13px 24px;
+	padding: 13px 0 13px 24px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
 }
 
 .mini_block_search_inside button {
 	width: 30%;
-	/* height: 100%; */
 	border-radius: 50px;
 	border: 1px solid transparent;
-	font-size: 17px;
 	background-color: transparent;
-	font-size: 17px;
 }
 
 .apec_city_mini_block .block_it {

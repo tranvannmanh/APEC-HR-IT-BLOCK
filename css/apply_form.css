@@ -22,8 +22,9 @@
 }
 
 #apply_apec .frame2 {
-	top: 498px;
+	/* top: 498px; */
 	left: 0;
+	bottom: -142px;
 }
 
 #apply_apec .frame3 {
@@ -43,16 +44,21 @@
 
 .apply_inside_header {
 	text-align: center;
+	margin-bottom: 96px;
 }
 
-h3 {
+.apply_inside_header h3 {
 	color: #bd6064;
+	font-weight: bold;
 	font-size: 24px;
-	padding: 16px;
+	line-height: 56px;
+	/* padding: 16px; */
 }
 
 .apply_inside_header h1 {
 	color: #0b314f;
+	font-size: 48px;
+	line-height: 56px;
 }
 
 .apply_inside_form {
@@ -146,11 +152,14 @@ h3 {
 }
 
 .send_form {
-	margin: 8px;
+	margin-top: 32px;
 	height: auto;
 }
 
 .send_form .send {
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
 	width: 240px;
 	float: right;
 	background: #cf585e;
@@ -159,5 +168,14 @@ h3 {
 	border-radius: 10px;
 	color: white;
 	font-size: 16px;
-	/* padding: 14px 33px; */
+	line-height: 24px;
+	font-weight: bold;
+	padding: 14px 33px;
+}
+
+.send_form .send p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: right;
 }
